@@ -36,12 +36,12 @@ def get_elapsed():
 
     return years, months, weeks, days, hours, minutes, seconds
 
-#def extract_gdrive_image_url(gdrive_url):
-#    try:
-#        file_id = gdrive_url.split('/d/')[1].split('/')[0]
-#        return f"https://drive.google.com/uc?export=view&id={file_id}"
-#    except:
-#        return None
+def extract_gdrive_image_url(gdrive_url):
+    try:
+        file_id = gdrive_url.split('/d/')[1].split('/')[0]
+        return f"https://drive.google.com/uc?export=view&id={file_id}"
+    except:
+        return None
 
 
 
@@ -193,13 +193,13 @@ image_links = [
   "https://nosotros-app.onrender.com/imagem/imagem93"
 ]
 
-#image_urls = [extract_gdrive_image_url(url) for url in image_links if extract_gdrive_image_url(url)]
+image_urls = [extract_gdrive_image_url(url) for url in image_links if extract_gdrive_image_url(url)]
 
-#if image_urls:
-#    current = st.slider("Escolha a imagem", min_value=0, max_value=len(image_urls)-1, step=1, label_visibility="collapsed")
-#    st.image(image_urls[current], use_column_width=True)
-#else:
-#    st.warning("Nenhuma imagem válida fornecida. Verifique os links.")
+if image_urls:
+    current = st.slider("Escolha a imagem", min_value=0, max_value=len(image_urls)-1, step=1, label_visibility="collapsed")
+    st.image(image_urls[current], use_column_width=True)
+else:
+    st.warning("Nenhuma imagem válida fornecida. Verifique os links.")
 
 # ------------------------
 # 3. Contador de tempo com atualização automática
