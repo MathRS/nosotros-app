@@ -43,7 +43,9 @@ def get_elapsed():
 #    except:
 #        return None
 
+st.markdown("""
 <img src="https://drive.google.com/uc?export=view&id=1tVcpOvMC9e-mGem2iN_M0ih8DRNpetJ3" alt="Nós" />
+""")
 
 # ------------------------
 # Estilo CSS personalizado
