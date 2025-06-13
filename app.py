@@ -201,28 +201,26 @@ else:
 
 from streamlit_autorefresh import st_autorefresh
 
-# Atualiza a cada 1000 ms (1 segundo)
-st_autorefresh(interval=1000, key="contador_refresh")
+# Atualiza automaticamente a cada 1 segundo (1000 milissegundos)
+st_autorefresh(interval=1000, key="contador_refresco")
 
-st.markdown("---")
-st.markdown("## Desde 13/01/2024")
+# Data inicial
+data_inicial = datetime(2024, 1, 13)
 
-years, months, weeks, days, hours, minutes, seconds = get_elapsed()
+# Data atual
+agora = datetime.now()
 
-st.markdown(
-    f"""
-    <div class="contador">
-    - <b>Anos</b>: {years}  <br>
-    - <b>Meses</b>: {months}  <br>
-    - <b>Semanas</b>: {weeks}  <br>
-    - <b>Dias</b>: {days}  <br>
-    - <b>Horas</b>: {hours}  <br>
-    - <b>Minutos</b>: {minutes}  <br>
-    - <b>Segundos</b>: {seconds}  <br>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+# Diferença de tempo
+diferenca = agora - data_inicial
+dias = diferenca.days
+segundos_totais = diferenca.seconds
+horas = segundos_totais // 3600
+minutos = (segundos_totais % 3600) // 60
+segundos = segundos_totais % 60
+
+# Título e resultado
+st.title("⏱️ Tempo desde 13/01/2024")
+st.markdown(f"### {dias} dias, {horas} horas, {minutos} minutos e {segundos} segundos")
 
 # ------------------------
 # 4. Texto de arquivo .txt
