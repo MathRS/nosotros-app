@@ -80,7 +80,6 @@ st.markdown(
 # ------------------------
 # Configuração da página
 # ------------------------
-st.set_page_config(layout="wide")
 
 # ------------------------
 # 1. Título
