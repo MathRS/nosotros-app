@@ -238,20 +238,16 @@ st.markdown(f"### {anos} anos, {dias} dias, {horas} horas, {minutos} minutos e {
 st.markdown("---")
 st.markdown("## Meu bem...")
 
-# Atualiza a cada 5 segundos (opcional)
-st_autorefresh(interval=5000, key="txt_refresh")
+st.markdown("Minha Tay Tay...
+Fiz essa pequena demonstração de amor pra que todos os dias vc saiba o quanto vc é importante pra mim.
+Ainda não namoramos infelizmente... 🥺
+Mas isso não é motivo para não celebrar o nosso amor e a nossa vontade de sermos santos juntos.
+Você é a única mulher com quem eu quero um relacionamento pelo resto da vida.
+Você e só você é com quem eu quero namorar, com quem eu quero noivar, com quem eu quero casar!!!
+Eu te escolho todos os dias com a paz e a certeza que vc também me escolhe com a mesma intensidade, pureza, intencionalidade e amor 💙
 
-# Link de download direto do arquivo no Drive
-arquivo_id = "1UjUsI2tRqSr5e4pUexi0lprmfUZBYvNI"
-url = f"https://drive.google.com/uc?export=download&id={arquivo_id}"
+Obrigado por estar comigo sempre 💜
 
-# Requisição HTTP
-resposta = requests.get(url)
-
-# Exibe o conteúdo
-if resposta.status_code == 200:
-    conteudo = resposta.text
-    st.title("📄 Conteúdo do arquivo .txt no Google Drive")
-    st.markdown(f"```\n{conteudo}\n```")  # mostra com formatação tipo bloco de código
-else:
-    st.error("Erro ao acessar o arquivo. Verifique o link ou permissões.")
+Ainda não posso te desejar FELIZ DIA DOS NAMORADOS do jeito que eu queria...
+Mas isso tudo é para que vc se sinta amada, e tenha certeza que o próximo dia dos namorados que passar, vc terá um bela aliança no dedo e meu amor de forma infinita e incondicional, com o propósito de me casar com vc e sermos um família linda, casta e Santa!!!
+Eu te amo meu amor 💙🤍💜")
