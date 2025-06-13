@@ -205,7 +205,7 @@ from streamlit_autorefresh import st_autorefresh
 st_autorefresh(interval=1000, key="contador_refresh")
 
 st.markdown("---")
-st.markdown("## Contador desde 13/01/2024")
+st.markdown("## Desde 13/01/2024")
 
 years, months, weeks, days, hours, minutes, seconds = get_elapsed()
 
@@ -228,10 +228,8 @@ st.markdown(
 # 4. Texto de arquivo .txt
 # ------------------------
 st.markdown("---")
-st.markdown("## Texto carregado do Google Drive")
+st.markdown("## Meu bem...")
 
-gdrive_link = st.text_input("https://drive.google.com/file/d/1UjUsI2tRqSr5e4pUexi0lprmfUZBYvNI/view?usp=sharing")
 
-if gdrive_link:
-    texto = get_text_from_gdrive(gdrive_link)
-    st.text_area("Conteúdo do arquivo:", texto, height=300)
+texto = get_text_from_gdrive(https://drive.google.com/file/d/1UjUsI2tRqSr5e4pUexi0lprmfUZBYvNI/view?usp=sharing)
+st.text_area("Conteúdo do arquivo:", texto, height=300)
