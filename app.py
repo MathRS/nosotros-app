@@ -44,7 +44,6 @@ def extract_gdrive_image_url(gdrive_url):
         return None
 
 
-
 # ------------------------
 # Estilo CSS personalizado
 # ------------------------
@@ -93,9 +92,6 @@ st.markdown("# Nosotros")
 # ------------------------
 st.markdown("## Nós")
 
-st.markdown("""
-<img src="https://drive.google.com/uc?export=view&id=1tVcpOvMC9e-mGem2iN_M0ih8DRNpetJ3" alt="Nós" />
-""")
 
 image_links = [
   "https://nosotros-app.onrender.com/imagem/imagem1",
