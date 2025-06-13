@@ -238,8 +238,13 @@ st.markdown(f"### {anos} anos, {dias} dias, {horas} horas, {minutos} minutos e {
 st.markdown("---")
 st.markdown("## Meu bem...")
 
-gdrive_link = st.text_input("Cole o link público do arquivo .txt no Google Drive:")
+url = "https://drive.google.com/uc?export=download&id=1UjUsI2tRqSr5e4pUexi0lprmfUZBYvNI"
+response = requests.get(url)
 
-if gdrive_link:
-    texto = get_text_from_gdrive(gdrive_link)
-    st.text_area("Conteúdo do arquivo:", texto, height=300)
+# Verifica se deu certo
+if response.status_code == 200:
+    texto = response.text
+    print("Conteúdo do arquivo:\n")
+    print(texto)
+else:
+    print("Erro ao acessar o arquivo:", response.status_code)
