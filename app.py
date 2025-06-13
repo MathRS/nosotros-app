@@ -240,14 +240,14 @@ st.markdown("## Meu bem...")
 
 st.markdown("Minha Tay Tay...
 Fiz essa pequena demonstração de amor pra que todos os dias vc saiba o quanto vc é importante pra mim.
-Ainda não namoramos infelizmente... 🥺
+Ainda não namoramos infelizmente...
 Mas isso não é motivo para não celebrar o nosso amor e a nossa vontade de sermos santos juntos.
 Você é a única mulher com quem eu quero um relacionamento pelo resto da vida.
 Você e só você é com quem eu quero namorar, com quem eu quero noivar, com quem eu quero casar!!!
-Eu te escolho todos os dias com a paz e a certeza que vc também me escolhe com a mesma intensidade, pureza, intencionalidade e amor 💙
+Eu te escolho todos os dias com a paz e a certeza que vc também me escolhe com a mesma intensidade, pureza, intencionalidade e amor
 
-Obrigado por estar comigo sempre 💜
+Obrigado por estar comigo sempre
 
 Ainda não posso te desejar FELIZ DIA DOS NAMORADOS do jeito que eu queria...
 Mas isso tudo é para que vc se sinta amada, e tenha certeza que o próximo dia dos namorados que passar, vc terá um bela aliança no dedo e meu amor de forma infinita e incondicional, com o propósito de me casar com vc e sermos um família linda, casta e Santa!!!
-Eu te amo meu amor 💙🤍💜")
+Eu te amo meu amor!")
