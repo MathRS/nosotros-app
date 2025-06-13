@@ -9,7 +9,7 @@ from datetime import datetime
 def get_text_from_gdrive(gdrive_url):
     try:
         file_id = gdrive_url.split('/d/')[1].split('/')[0]
-        download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
+        download_url = f"https://drive.google.com/uc?export=download&id=1UjUsI2tRqSr5e4pUexi0lprmfUZBYvNI"
         response = requests.get(download_url)
         if response.status_code == 200:
             return response.text
@@ -201,26 +201,36 @@ else:
 
 from streamlit_autorefresh import st_autorefresh
 
-# Atualiza automaticamente a cada 1 segundo (1000 milissegundos)
+# Atualização automática a cada 1 segundo
 st_autorefresh(interval=1000, key="contador_refresco")
 
-# Data inicial
+# Data de referência
 data_inicial = datetime(2024, 1, 13)
-
-# Data atual
 agora = datetime.now()
 
-# Diferença de tempo
+# Calcula diferença total
 diferenca = agora - data_inicial
-dias = diferenca.days
-segundos_totais = diferenca.seconds
+
+# Calcular anos completos (sem considerar anos bissextos com precisão extrema)
+anos = agora.year - data_inicial.year
+# Verifica se ainda não passou o mês e dia do início no ano atual
+if (agora.month, agora.day) < (data_inicial.month, data_inicial.day):
+    anos -= 1
+
+# Data inicial ajustada com os anos completos
+data_com_anos = datetime(data_inicial.year + anos, data_inicial.month, data_inicial.day)
+restante = agora - data_com_anos
+
+# Dias, horas, minutos, segundos restantes depois de contar os anos
+dias = restante.days
+segundos_totais = restante.seconds
 horas = segundos_totais // 3600
 minutos = (segundos_totais % 3600) // 60
 segundos = segundos_totais % 60
 
-# Título e resultado
+# Interface
 st.title("⏱️ Tempo desde 13/01/2024")
-st.markdown(f"### {dias} dias, {horas} horas, {minutos} minutos e {segundos} segundos")
+st.markdown(f"### {anos} anos, {dias} dias, {horas} horas, {minutos} minutos e {segundos} segundos")
 
 # ------------------------
 # 4. Texto de arquivo .txt
