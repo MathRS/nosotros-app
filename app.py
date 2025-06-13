@@ -36,12 +36,14 @@ def get_elapsed():
 
     return years, months, weeks, days, hours, minutes, seconds
 
-def extract_gdrive_image_url(gdrive_url):
-    try:
-        file_id = gdrive_url.split('/d/')[1].split('/')[0]
-        return f"https://drive.google.com/uc?export=view&id={file_id}"
-    except:
-        return None
+#def extract_gdrive_image_url(gdrive_url):
+#    try:
+#        file_id = gdrive_url.split('/d/')[1].split('/')[0]
+#        return f"https://drive.google.com/uc?export=view&id={file_id}"
+#    except:
+#        return None
+
+<img src="https://drive.google.com/uc?export=view&id=1tVcpOvMC9e-mGem2iN_M0ih8DRNpetJ3" alt="Nós" />
 
 # ------------------------
 # Estilo CSS personalizado
