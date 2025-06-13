@@ -230,7 +230,7 @@ st.markdown(
 st.markdown("---")
 st.markdown("## Texto carregado do Google Drive")
 
-gdrive_link = st.text_input("Cole o link público do arquivo .txt no Google Drive:")
+gdrive_link = st.text_input("https://drive.google.com/file/d/1UjUsI2tRqSr5e4pUexi0lprmfUZBYvNI/view?usp=sharing")
 
 if gdrive_link:
     texto = get_text_from_gdrive(gdrive_link)
