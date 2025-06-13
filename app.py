@@ -9,7 +9,7 @@ from datetime import datetime
 def get_text_from_gdrive(gdrive_url):
     try:
         file_id = gdrive_url.split('/d/')[1].split('/')[0]
-        download_url = f"https://drive.google.com/uc?export=download&id=1UjUsI2tRqSr5e4pUexi0lprmfUZBYvNI"
+        download_url = f"https://drive.google.com/file/d/1UjUsI2tRqSr5e4pUexi0lprmfUZBYvNI/view?usp=sharing"
         response = requests.get(download_url)
         if response.status_code == 200:
             return response.text
@@ -229,7 +229,7 @@ minutos = (segundos_totais % 3600) // 60
 segundos = segundos_totais % 60
 
 # Interface
-st.title("⏱️ Tempo desde 13/01/2024")
+st.title("Desde 13/01/2024 ja se passaram...")
 st.markdown(f"### {anos} anos, {dias} dias, {horas} horas, {minutos} minutos e {segundos} segundos")
 
 # ------------------------
