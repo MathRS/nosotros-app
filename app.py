@@ -1,6 +1,8 @@
 import streamlit as st
 import requests
 from datetime import datetime
+from io import BytesIO
+from PIL import Image
 
 # ------------------------
 # Funções auxiliares
@@ -92,6 +94,17 @@ st.markdown("# Nosotros")
 # ------------------------
 st.markdown("## Nós")
 
+
+url = "https://drive.google.com/uc?export=view&id=1tVcpOvMC9e-mGem2iN_M0ih8DRNpetJ3"
+# Baixa a imagem
+response = requests.get(url)
+response.raise_for_status()  # para dar erro se não conseguir baixar
+
+# Abre a imagem com Pillow a partir dos bytes baixados
+img = Image.open(BytesIO(response.content))
+
+# Mostra a imagem
+img.show()
 
 image_links = [
   "https://nosotros-app.onrender.com/imagem/imagem1",
