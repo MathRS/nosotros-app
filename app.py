@@ -238,13 +238,20 @@ st.markdown(f"### {anos} anos, {dias} dias, {horas} horas, {minutos} minutos e {
 st.markdown("---")
 st.markdown("## Meu bem...")
 
-url = "https://drive.google.com/uc?export=download&id=1UjUsI2tRqSr5e4pUexi0lprmfUZBYvNI"
-response = requests.get(url)
+# Atualiza a cada 5 segundos (opcional)
+st_autorefresh(interval=5000, key="txt_refresh")
 
-# Verifica se deu certo
-if response.status_code == 200:
-    texto = response.text
-    print("Conteúdo do arquivo:\n")
-    print(texto)
+# Link de download direto do arquivo no Drive
+arquivo_id = "1UjUsI2tRqSr5e4pUexi0lprmfUZBYvNI"
+url = f"https://drive.google.com/uc?export=download&id={arquivo_id}"
+
+# Requisição HTTP
+resposta = requests.get(url)
+
+# Exibe o conteúdo
+if resposta.status_code == 200:
+    conteudo = resposta.text
+    st.title("📄 Conteúdo do arquivo .txt no Google Drive")
+    st.markdown(f"```\n{conteudo}\n```")  # mostra com formatação tipo bloco de código
 else:
-    print("Erro ao acessar o arquivo:", response.status_code)
+    st.error("Erro ao acessar o arquivo. Verifique o link ou permissões.")
