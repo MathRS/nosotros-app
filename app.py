@@ -238,7 +238,7 @@ st.markdown(f"### {anos} anos, {dias} dias, {horas} horas, {minutos} minutos e {
 st.markdown("---")
 st.markdown("## Meu bem...")
 
-st.markdown("f## Minha Tay Tay...
+st.markdown(""" Minha Tay Tay...
 Fiz essa pequena demonstração de amor pra que todos os dias vc saiba o quanto vc é importante pra mim.
 Ainda não namoramos infelizmente...
 Mas isso não é motivo para não celebrar o nosso amor e a nossa vontade de sermos santos juntos.
@@ -250,4 +250,4 @@ Obrigado por estar comigo sempre
 
 Ainda não posso te desejar FELIZ DIA DOS NAMORADOS do jeito que eu queria...
 Mas isso tudo é para que vc se sinta amada, e tenha certeza que o próximo dia dos namorados que passar, vc terá um bela aliança no dedo e meu amor de forma infinita e incondicional, com o propósito de me casar com vc e sermos um família linda, casta e Santa!!!
-Eu te amo meu amor!")
+Eu te amo meu amor!""")
