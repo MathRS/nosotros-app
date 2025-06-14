@@ -239,17 +239,19 @@ st.markdown(f"### {anos} anos, {dias} dias, {horas} horas, {minutos} minutos e {
 st.markdown("---")
 st.markdown("## Meu bem...")
 
-st.markdown(""" Minha Tay Tay...
-Fiz essa pequena demonstração de amor pra que todos os dias vc saiba o quanto vc é importante pra mim.
-Ainda não namoramos infelizmente...
-Mas isso não é motivo para não celebrar o nosso amor e a nossa vontade de sermos santos juntos.
-Você é a única mulher com quem eu quero um relacionamento pelo resto da vida.
-Você e só você é com quem eu quero namorar, com quem eu quero noivar, com quem eu quero casar!!!
-Eu te escolho todos os dias com a paz e a certeza que vc também me escolhe com a mesma intensidade, pureza, intencionalidade e amor
+st.markdown(""" Eclesiastes 4, 12
+"Um cordão de três dobras não se rompe facilmente."
 
-Obrigado por estar comigo sempre
+Minha princesaaa
+Hoje apenas preciso que vc lembre que eu estou contigo em todos os momentos.
+Minha oração por vc é incessante.
+Não se preocupe, vc nunca mais estará sozinha na vida, conta comigo pra TUDO
 
-Ainda não posso te desejar FELIZ DIA DOS NAMORADOS do jeito que eu queria...
-Mas isso tudo é para que vc se sinta amada, e tenha certeza que o próximo dia dos namorados que passar, vc terá um bela aliança no dedo e meu amor de forma infinita e incondicional, com o propósito de me casar com vc e sermos um família linda, casta e Santa!!!
-Eu te amo meu amor!
-Feliz Nosso dia 13!!!""")
+EU TE AMO 
+EU ESTOU CONTIGO 
+NÓS ESTAMOS UNIDOS NO CORAÇÃO IMACULADO DE MARIA E A SAGRADA FAMÍLIA INTERCEDE POR NÓS SEMPRE!!!
+
+Estamos juntos nessa minha garotinhaaaa
+
+Nunca vou desistir de nós.
+Jamais vou soltar sua mão.""")
