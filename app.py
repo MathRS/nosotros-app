@@ -239,19 +239,17 @@ st.markdown(f"### {anos} anos, {dias} dias, {horas} horas, {minutos} minutos e {
 st.markdown("---")
 st.markdown("## Meu bem...")
 
-st.markdown(""" Eclesiastes 4, 12
-"Um cordão de três dobras não se rompe facilmente."
+st.markdown(""" (1 Coríntios 13, 4-7)
+"O amor tudo crê, tudo espera, tudo suporta, tudo perdoa."
 
-Minha princesaaa
-Hoje apenas preciso que vc lembre que eu estou contigo em todos os momentos.
-Minha oração por vc é incessante.
-Não se preocupe, vc nunca mais estará sozinha na vida, conta comigo pra TUDO
+Nenemmm da minha vidaaaaa
+Lembre-se que eu rezo a cada segundo por vc e por nós.
+Vc é a resposta mais linda da minha oração mais sincera.
+Eu rezei muito por nós ontem, estou rezando muito por nós hoje, e amanhã vou rezar ainda mais pelo nosso amor e nosso futuro!
+Vc é a mulher da minha vida Tay Tay!
+Vc é minha melhor e mais perfeita escolha!
+Eu te quero comigo pra sempre meu neném 
 
-EU TE AMO 
-EU ESTOU CONTIGO 
-NÓS ESTAMOS UNIDOS NO CORAÇÃO IMACULADO DE MARIA E A SAGRADA FAMÍLIA INTERCEDE POR NÓS SEMPRE!!!
+Estamos juntos nessa. Até o céu, até a eternidade eu te amarei.
 
-Estamos juntos nessa minha garotinhaaaa
-
-Nunca vou desistir de nós.
-Jamais vou soltar sua mão.""")
+YO TE QUIERO MUCHO MI PERSONA """)
