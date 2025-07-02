@@ -239,17 +239,12 @@ st.markdown(f"### {anos} anos, {dias} dias, {horas} horas, {minutos} minutos e {
 st.markdown("---")
 st.markdown("## Meu bem...")
 
-st.markdown(""" (1 Coríntios 13, 4-7)
-"O amor tudo crê, tudo espera, tudo suporta, tudo perdoa."
+st.markdown(""" Minha Princesa 
 
-Nenemmm da minha vidaaaaa
-Lembre-se que eu rezo a cada segundo por vc e por nós.
-Vc é a resposta mais linda da minha oração mais sincera.
-Eu rezei muito por nós ontem, estou rezando muito por nós hoje, e amanhã vou rezar ainda mais pelo nosso amor e nosso futuro!
-Vc é a mulher da minha vida Tay Tay!
-Vc é minha melhor e mais perfeita escolha!
-Eu te quero comigo pra sempre meu neném 
+Lembre-se sempre que vc é, todos os dias e momentos, a minha melhor escolha da vida!!!!
+estamos juntos até o céu!
+quero vc hj e pra sempre.
+sempre vou cuidar de vc meu amorzinho!
+vc é minha promessa mais linda 
 
-Estamos juntos nessa. Até o céu, até a eternidade eu te amarei.
-
-YO TE QUIERO MUCHO MI PERSONA """)
+EU TE AMO PARA SEMPRE MEU FUTURO """)
