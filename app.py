@@ -230,14 +230,14 @@ minutos = (segundos_totais % 3600) // 60
 segundos = segundos_totais % 60
 
 # Interface
-st.title("Desde 13/01/2024 ja se passaram...")
+st.title("Eu te amo há: ")
 st.markdown(f"### {anos} anos, {dias} dias, {horas} horas, {minutos} minutos e {segundos} segundos")
 
 # ------------------------
 # 4. Texto de arquivo .txt
 # ------------------------
 st.markdown("---")
-st.markdown("## Meu bem...")
+st.markdown("## Eu te amo de hoje...")
 
 st.markdown(""" Denguinhoooo
 Nunca duvide do meu amor por ti.
