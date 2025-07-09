@@ -239,12 +239,10 @@ st.markdown(f"### {anos} anos, {dias} dias, {horas} horas, {minutos} minutos e {
 st.markdown("---")
 st.markdown("## Meu bem...")
 
-st.markdown(""" Minha Princesa 
+st.markdown(""" Denguinhoooo
+Nunca duvide do meu amor por ti.
+Você é meu sonho realizado 
+Minha melhor amiga
+meu futuro todinho.
 
-Lembre-se sempre que vc é, todos os dias e momentos, a minha melhor escolha da vida!!!!
-estamos juntos até o céu!
-quero vc hj e pra sempre.
-sempre vou cuidar de vc meu amorzinho!
-vc é minha promessa mais linda 
-
-EU TE AMO PARA SEMPRE MEU FUTURO """)
+Estamos juntos nessa minha eterna Caminhante! """)
